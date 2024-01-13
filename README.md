@@ -7,6 +7,10 @@
   <p align="center"><img src="./docs/site/img/win.png"><p>
 </div>
 
+---
+---
+---
+
 ## Docs
 
 You can read the docs on this Git's Wiki, or [here](https://ms7m.github.io/notify-py/)
