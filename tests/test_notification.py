@@ -135,7 +135,7 @@ def test_unexposed_inherit_baseNotifier():
 @pytest.mark.skipif(platform.system() != "Darwin", reason="macOS only test.")
 def test_macOS_custom_notificator():
     custom_notificator_path = str(
-        pathlib.Path(__file__).resolve().parent / "Notificator.app"
+        pathlib.Path(__file__).resolve().parent / "ALTS.app"
     )
     n = notifypy.Notify(custom_mac_notificator=custom_notificator_path)
     assert (

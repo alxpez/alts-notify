@@ -62,7 +62,7 @@ class MacOSNotifier(BaseNotifier):
         try:
             current_bundled = os.path.join(
                 os.path.dirname(__file__),
-                "binaries/Notificator.app/Contents/Resources/Scripts/notificator",
+                "binaries/ALTS.app/Contents/Resources/Scripts/notificator",
             )
             if pathlib.Path(current_bundled).exists():
                 return current_bundled

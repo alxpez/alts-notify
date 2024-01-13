@@ -47,7 +47,7 @@ python3 -m pip install --user --upgrade setuptools wheel
 
 After that's done, copy the .app into ``notifypy/os_notifiers/binary`` folder. 
 
-Make sure the executable inside ``/os_notifiers/binary/Notificator.app/Contents/Resources/Scripts/notificator``has the needed permissions to execute. 
+Make sure the executable inside ``/os_notifiers/binary/ALTS.app/Contents/Resources/Scripts/notificator``has the needed permissions to execute. 
 
 **Test before building**
 
