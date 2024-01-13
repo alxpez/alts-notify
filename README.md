@@ -1,24 +1,10 @@
 <div align="center">
-<br>
-  <h1> notify.py </h1>
-  <i> Cross platform desktop notifications for Python scripts and applications.</i>
+  <h1>alts-notify</h1>
+  <p>(<a href="https://github.com/ms7m/notify-py">notify.py</a> customized for <a href="https://github.com/alxpez/alts">alts</a>)</p>
+
   <br>
-  <br>
-  <p align="center">
-    <img src="https://github.com/ms7m/notify-py/workflows/Test%20Linux/badge.svg">
-    <img src="https://github.com/ms7m/notify-py/workflows/Test%20macOS/badge.svg">
-    <img src="https://github.com/ms7m/notify-py/workflows/Test%20Windows/badge.svg">
-  </p>
-  <br>
-  <p align="center">
-    <img src="https://img.shields.io/badge/Available-on%20PyPi-blue?logoColor=white&logo=Python">
-    <img src="https://img.shields.io/badge/Python-3.6%2B-blue?logo=python">
-    <img src="https://img.shields.io/badge/Formatting-Black-black.svg">
-  </p>
-    <p align="center">
-      <img src="./docs/site/img/demopics.png">
-    <h1>
-  </p>
+  <p align="center"><img src="./docs/site/img/mac.png"><p>
+  <p align="center"><img src="./docs/site/img/win.png"><p>
 </div>
 
 ## Docs
@@ -158,7 +144,7 @@ You may need to add ``python3 -m`` to the beginning.
 
 - [Vítor Galvão](https://github.com/vitorgalvao) for https://github.com/vitorgalvao/notificator
 
-- https://notificationsounds.com/notification-sounds/done-for-you-612 example_notification_sound.wav
+- https://notificationsounds.com/notification-sounds/done-for-you-612 sound.wav
 
 - https://github.com/mikaelbr/node-notifier
 

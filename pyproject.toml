@@ -7,7 +7,7 @@ repository = "https://github.com/ms7m/notify-py"
 readme = "README.md"
 license = "MIT"
 documentation = "https://github.com/ms7m/notify-py"
-include = ["notifypy/py-logo.png", "notifypy/example_notification_sound.wav", "notifypy/os_notifiers/binaries/*"]
+include = ["notifypy/logo.png", "notifypy/sound.wav", "notifypy/os_notifiers/binaries/*"]
 packages = [
     { include = "notifypy" },
 ]

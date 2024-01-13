@@ -20,9 +20,9 @@ from .os_notifiers._base import BaseNotifier
 class Notify:
     def __init__(
         self,
-        default_notification_title="Default Title",
-        default_notification_message="Default Message",
-        default_notification_application_name="Python Application (notify.py)",
+        default_notification_title="title",
+        default_notification_message="message",
+        default_notification_application_name="alts",
         default_notification_urgency='normal',
         default_notification_icon=None,
         default_notification_audio=None,
@@ -82,7 +82,7 @@ class Notify:
             self._notification_icon = self._verify_icon_path(default_notification_icon)
         else:
             self._notification_icon = str(
-                os.path.join(os.path.dirname(__file__), "py-logo.png")
+                os.path.join(os.path.dirname(__file__), "logo.png")
             )
 
         if default_notification_audio:

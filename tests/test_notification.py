@@ -75,7 +75,7 @@ def test_non_blocking_notification():
 
 def test_custom_audio():
     n = notifypy.Notify(enable_logging=True)
-    n.audio = "notifypy/example_notification_sound.wav"
+    n.audio = "notifypy/sound.wav"
     assert n.send() == True
 
 
